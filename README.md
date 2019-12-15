@@ -11,3 +11,5 @@ Ou caso use Anaconda:
 conda install -c anaconda mysql-connector-python
 
 Após isso, basta rodar o arquivo sistema.py no terminal, devido a questões técnicas de tempo, a interface de uso é no próprio terminal.
+
+Para facilitar a manipulação nos testes, os campos CNPJ e CPF estão como auto-increment, mas certamente uma implementação um pouco mais prática deveria corrigir essa simplificação.
